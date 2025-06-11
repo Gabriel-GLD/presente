@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Lavishly+Yours&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body {
+    height: 100vh;
+    font-family: "Lora", serif;
+    background-color:rgba(255, 0, 0, 0.771);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    background-color: rgba(3, 23, 50, 0.822);
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.408);
+    color: white;
+}
+
+/* Parallax base */
+.paralax, .bz {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px 50px 100px 0px;
+    min-height: 400px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Fundos específicos */
+.paralax {
+    background-image: url(imagens/tulipas.jpg);
+}
+
+.bz {
+    background-image: url(imagens/berzerk.jpg);
+}
+
+/* Fonte especial nos poemas */
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Imagem central */
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Container genérico */
+div {
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #02101f;
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .paralax, .bz {
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .botaoclic {
+        background-color: rgba(83, 6, 6, 0.856);
+        text-align: center;
+        width: 200px;
+        height: 120px;
+        border-radius: 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
