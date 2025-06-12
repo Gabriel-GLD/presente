@@ -25,6 +25,24 @@ header {
     color: white;
 }
 
+/*Parallax 1 */
+
+.gab-rai {
+ 
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px 50px 100px 0px;
+    min-height: 400px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+
+}
+
 /* Parallax base */
 .paralax, .bz {
     display: flex;
